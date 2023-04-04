@@ -225,7 +225,7 @@ h3 {
     bottom: -5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .services-flex {
         flex-direction: column;
     }
@@ -234,6 +234,7 @@ h3 {
     }
     #title {
         font-size: 100px;
+        scale: 75;
     }
     h1 {
         font-size: 40px;
