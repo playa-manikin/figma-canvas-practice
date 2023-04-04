@@ -133,6 +133,7 @@ footer {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+    min-width: 300px;
     max-width: 360px;
     margin: 20px;
     margin-top: 154px;
