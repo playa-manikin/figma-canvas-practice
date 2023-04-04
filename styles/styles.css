@@ -24,11 +24,11 @@ footer {
     background-image: url(../images/footer.png);
     height: 145px;
 }
-#intro{
+.intro{
     background-image: url(../images/grass-bg.png);
     height: 840px;
 }
-#name {
+.intro__name {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ footer {
     margin-bottom: 3%;
     
 }
-#transparent-button {
+.intro__transparent-button {
     display: block;
     color: #FFFFFF;
     font-family: poppins;   
@@ -52,7 +52,7 @@ footer {
     padding: 25px;
     margin-bottom: 40px;
 }
-#title {
+.intro__title {
     display: block;
     color: #FFFFFF;
     font-family: poppins;    
@@ -77,7 +77,7 @@ footer {
     flex-wrap: wrap;
     
 }
-.services-flex-item {
+.services-flex__item {
     margin: 20px;
     color: #0D4D14;
     font-style: normal;
@@ -127,7 +127,7 @@ footer {
     margin: auto;
     flex-wrap: wrap;
 }
-.about-us-item {
+.about-us__item {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -146,7 +146,7 @@ footer {
     margin: auto;
     flex-wrap: wrap;
 }
-.testymonials-item {
+.testymonials-flex__item {
     border: 1px solid #6CB981;
     border-radius: 40px;
     color: #0D4C14;
@@ -175,18 +175,18 @@ h3 {
     flex-wrap: wrap;
     padding-bottom: 50px;
 }
-.contact-buttons {
+.contacts-flex__buttons {
     margin-left: 25px;
     margin-right: 25px;
 }
-.contact-button {
+.contacts-flex__button {
     display: block;
     width: 374px;
     height: 56px;
     background: #9FDEA9;
     border-radius: 61px;
 }
-.contact-button2 {
+.contacts-flex__button2 {
     display: block;
     border: 3px solid #4DB96B;
     border-radius: 61px;
@@ -196,7 +196,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
-.contact-info {
+.contacts-flex__info {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -213,7 +213,7 @@ h3 {
     flex-wrap: wrap;
     align-content: space-between;
 }
-.contact-list {
+.contacts-flex__info_list {
    margin-bottom: auto;
    
 }
@@ -225,7 +225,7 @@ h3 {
     margin-right: 20px;
     bottom: -5px;
 }
-.services-flex-item-img {
+.services-flex__item-img {
     display: block;
     object-fit: contain;
 }
@@ -237,20 +237,20 @@ h3 {
     .about-us-flex {
         flex-direction: column;
     }
-    #title {
+    .intro__title {
         font-size: 100px;
         scale: 75%;
     }
     h1 {
         font-size: 40px;
     }
-    .services-flex-item  {
+    .services-flex__item  {
         max-width: 280px;
     }
-    .services-flex-item-img {
+    .services-flex__item-img {
         width: 280px;
     }
-    .about-us-item {
+    .about-us__item {
         max-width: 280;
     }
     #green-curve2 { 
