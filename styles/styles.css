@@ -231,9 +231,9 @@ h3 {
 }
 
 @media screen and (max-width: 700px) {
-    .services-flex {
+    /* .services-flex {
         flex-direction: column;
-    }
+    } */
     .about-us-flex {
         flex-direction: column;
     }
