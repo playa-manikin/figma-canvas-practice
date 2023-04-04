@@ -134,7 +134,7 @@ footer {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 360px;
     margin: 20px;
     margin-top: 154px;
@@ -249,5 +249,15 @@ h3 {
     }
     .services-flex-item-img {
         width: 280px;
+    }
+    .about-us-item {
+        max-width: 280;
+    }
+    #green-curve2 { 
+        right: -50px;  
+    }
+    .contact-button {
+        width: auto;
+        max-width: 374px;
     }
 }
