@@ -118,6 +118,7 @@ footer {
     justify-content: center;
     margin: auto;
     background-image: url(../images/grass-bg-dark.png);
+    background-size: cover;
 }
 .about-us-flex {
     display: flex;
@@ -224,8 +225,12 @@ h3 {
     margin-right: 20px;
     bottom: -5px;
 }
+.services-flex-item-img {
+    display: block;
+    object-fit: contain;
+}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .services-flex {
         flex-direction: column;
     }
@@ -240,7 +245,9 @@ h3 {
         font-size: 40px;
     }
     .services-flex-item  {
-        
-        max-width: 250px;
+        max-width: 280px;
+    }
+    .services-flex-item-img {
+        width: 280px;
     }
 }
