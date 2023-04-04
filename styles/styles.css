@@ -239,4 +239,7 @@ h3 {
     h1 {
         font-size: 40px;
     }
+    .services-flex-item  {
+        max-width: 300px;
+    }
 }
