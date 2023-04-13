@@ -147,21 +147,33 @@
     <section class="content-section">
         <h1 class="content-section__title">Contact Us</h1>
         <div class="conatcts">
-            <div> 
-                <form>
+            
+                <form class="conatcts-form">
                 <label for="fullname">Full Name:</label><br>
-                <input type="text" id="fullname" name="fullname" placeholder="John Smith" class="conatcts__input" required>
+                <input type="text" id="fullname" name="fullname" placeholder="John Smith" class="conatcts-form__input" required>
                 <br>
                 <label for="phone">Phone Number:</label><br>
-                <input type="tel" id="phone" name="phone" placeholder="8 800 555 3535" class="conatcts__input" pattern="[0-9]*" required>
+                <input type="tel" id="phone" name="phone" placeholder="8 800 555 3535" class="conatcts-form__input" pattern="[0-9]*" required>
                 <br>
                 <label for="email">Email</label><br>
-                <input type="email" id="email" name="email" placeholder="example@mail.com" class="conatcts__input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                <input type="submit" value="Submit">
+                <input type="email" id="email" name="email" placeholder="example@mail.com" class="conatcts-form__input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <br>
+                <input type="submit" value="Submit" class="conatcts-form__submit">
                 </form>
-            </div>
             
+            <div class="conatcts-info">
+                <span class="conatcts-info__item">
+                    <img src="images/mail.webp" class="conatcts-info__icon">test@gmail.com
+                </span>
+                <span class="conatcts-info__item">
+                    <img src="images/ic_round-call.webp" class="conatcts-info__icon">(303) 555-0105
+                </span class="conatcts-info__item">
+                <span>
+                    <img src="images/location.webp" class="conatcts-info__icon">2715 Ash Dr. San Jose, South Dakota 83475
+                </span>
+            </div>
         </div>
     </section>
+    <footer class="footer"></footer>
 </body>
 </html>

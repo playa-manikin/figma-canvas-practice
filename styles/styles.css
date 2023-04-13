@@ -111,10 +111,11 @@ a:visited {
 }
 .conatcts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    max-width: 800px;
 }
 .about-us {
     display: flex;
@@ -208,11 +209,43 @@ a:visited {
 .testimonial__star_disabled {
     filter: grayscale(100%);
 }
-.conatcts__input {
+.conatcts-form {
+    margin: auto;
+    
+}
+.conatcts-form__input {
     border: solid 3px #9FDEA9;
     border-radius: 61px;
+    margin-bottom: 14px;
 }
-
+.conatcts-form__submit {
+    background-color: white;
+    border: 3px solid #4DB96B;
+    width: 160px;
+    height: 55px;
+    border-radius: 61px;
+}
+.conatcts-info__icon {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+}
+.conatcts-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+    padding-left: 70px;
+}
+.conatcts-info__item {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #324B29;
+    height: 145px;
+    margin-top: 50px;
+}
 @media screen and (max-width: 1000px) {
     .header__title {
         font-size: 120px;
